@@ -1,0 +1,26 @@
+{
+  "entityType" : "DASHBOARD",
+  "entity" : {
+    "assignedCustomers" : null,
+    "configuration" : {
+      "description" : ""
+    },
+    "createdTime" : 1692529179877,
+    "customerId" : null,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "DASHBOARD",
+      "id" : "a8e3f150-3f48-11ee-834f-b5748aa0cf10"
+    },
+    "image" : null,
+    "mobileHide" : false,
+    "mobileOrder" : null,
+    "name" : "Dashboard 2",
+    "ownerId" : null,
+    "tenantId" : null,
+    "title" : "Dashboard 2"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
