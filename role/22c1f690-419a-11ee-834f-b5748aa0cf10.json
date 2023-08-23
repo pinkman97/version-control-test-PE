@@ -1,0 +1,28 @@
+{
+  "entityType" : "ROLE",
+  "entity" : {
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "name" : "test role version control",
+    "permissions" : {
+      "ALARM" : [ "READ" ]
+    },
+    "tenantId" : null,
+    "type" : "GENERIC",
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "createdTime" : 1692784075897,
+    "id" : {
+      "entityType" : "ROLE",
+      "id" : "22c1f690-419a-11ee-834f-b5748aa0cf10"
+    },
+    "ownerId" : null
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
