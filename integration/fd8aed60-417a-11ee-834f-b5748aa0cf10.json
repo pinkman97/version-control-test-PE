@@ -1,0 +1,61 @@
+{
+  "entityType" : "INTEGRATION",
+  "entity" : {
+    "additionalInfo" : {
+      "description" : ""
+    },
+    "allowCreateDevicesOrAssets" : true,
+    "configuration" : {
+      "baseUrl" : "http://20.199.190.60:8080",
+      "replaceNoContentToOk" : "",
+      "enableSecurity" : false,
+      "downlinkUrl" : "https://api.thingpark.com/thingpark/lrc/rest/downlink",
+      "loriotDownlinkUrl" : "https://eu1.loriot.io/1/rest",
+      "createLoriotOutput" : false,
+      "sendDownlink" : false,
+      "server" : "eu1",
+      "domain" : "loriot.io",
+      "appId" : "",
+      "enableSecurityNew" : false,
+      "asId" : "",
+      "asIdNew" : "",
+      "asKey" : "",
+      "clientIdNew" : "",
+      "clientSecret" : "",
+      "maxTimeDiffInSeconds" : 60,
+      "httpEndpoint" : "http://20.199.190.60:8080/api/v1/integrations/http/81e5a061-712c-db50-7837-0ba852c4628d",
+      "headersFilter" : { },
+      "token" : "",
+      "credentials" : {
+        "type" : "basic",
+        "email" : "",
+        "password" : "",
+        "token" : ""
+      },
+      "metadata" : { }
+    },
+    "createdTime" : 1692770699062,
+    "debugMode" : false,
+    "defaultConverterId" : {
+      "entityType" : "CONVERTER",
+      "id" : "f80692e0-417a-11ee-834f-b5748aa0cf10"
+    },
+    "downlinkConverterId" : null,
+    "edgeTemplate" : true,
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "INTEGRATION",
+      "id" : "fd8aed60-417a-11ee-834f-b5748aa0cf10"
+    },
+    "name" : "test",
+    "remote" : false,
+    "routingKey" : "81e5a061-712c-db50-7837-0ba852c4628d",
+    "secret" : "1al8jojz9q307d2bx5u6",
+    "tenantId" : null,
+    "type" : "HTTP"
+  },
+  "attributes" : {
+    "SERVER_SCOPE" : [ ]
+  }
+}
