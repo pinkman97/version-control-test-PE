@@ -23,7 +23,10 @@
       "entityType" : "DEVICE_PROFILE",
       "id" : "bc314b40-2f8f-11ee-87d2-4d8f816eb6e6"
     },
-    "externalId" : null,
+    "externalId" : {
+      "entityType" : "DEVICE",
+      "id" : "c2c1cc10-3033-11ee-87d2-4d8f816eb6e6"
+    },
     "firmwareId" : null,
     "id" : {
       "entityType" : "DEVICE",
@@ -34,38 +37,14 @@
     "ownerId" : null,
     "softwareId" : null,
     "tenantId" : null,
-    "type" : "default"
+    "type" : "sertr4dcdefault"
   },
   "credentials" : {
     "credentialsId" : "QPx57rGWAwk6YhCOcMDN",
     "credentialsType" : "ACCESS_TOKEN",
     "credentialsValue" : null
   },
-  "relations" : [ {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "c2c1cc10-3033-11ee-87d2-4d8f816eb6e6"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "c2c1cc10-3033-11ee-87d2-4d8f816eb6e6"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  }, {
-    "additionalInfo" : null,
-    "from" : {
-      "entityType" : "DEVICE",
-      "id" : "c2c1cc10-3033-11ee-87d2-4d8f816eb6e6"
-    },
-    "to" : {
-      "entityType" : "DEVICE",
-      "id" : "c2c1cc10-3033-11ee-87d2-4d8f816eb6e6"
-    },
-    "type" : "Contains",
-    "typeGroup" : "COMMON"
-  } ],
+  "relations" : [ ],
   "attributes" : {
     "SERVER_SCOPE" : [ {
       "booleanValue" : false,
